@@ -1,0 +1,5 @@
+print('Car rent')
+days = int(input('How many days?: '))
+km = float(input('How many km?: '))
+pay = (days * 60) + (km * 0.15)
+print('You have to pay: {:.2f}'.format(pay))
